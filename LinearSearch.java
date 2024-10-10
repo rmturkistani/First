@@ -1,6 +1,8 @@
+// Name: Razan Muhammad Alturkistani
+// ID: 445002494
+
 package linearsearch;
 
-//----------------------------------------------------------------------------------------------
 // Java code for linearly search x in arr[]. If x
 // is present then return its location, otherwise
 // return -1
@@ -30,18 +32,18 @@ class LinearSearch {
 
         int n = arr.length;
 
-        int x = 4;
+        // Assigned x to 7 instead of 4
+        int x = 7;
 
-        int index = search(arr, n, x);
+        // Changed the variable name throughout the code
+        int value = search(arr, n, x);
 
-        if (index == -1) {
+        if (value == -1) {
             System.out.println("Element is not present in the array");
         } else {
-            System.out.println("Element found at position " + index);
+            System.out.println("Element found at position " + value);
         }
 
     }
 
 }
-
-//------------------------------------------------------------------------------------------------------
